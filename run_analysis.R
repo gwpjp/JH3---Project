@@ -30,6 +30,7 @@ names(data) <- varnames
 remain <- c(grep("mean\\(",varnames),grep("std\\(", varnames))
 remain <- c(1,2,remain[order(remain)])
 subdata <- data[,remain] #This data set now has 68 columns
+write.table(colnames(subdata),"extractednames.txt") #These are the names of the extracted variables
 
 #Turns activity numbers into descriptive names
 subdata[,2] <- gsub("1","Walking",subdata[,2])

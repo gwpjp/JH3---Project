@@ -10,3 +10,5 @@ This repo contains the following files:
 --'tidydata.txt'  - this tidy data set is the output of the code that is run in 'run_analysis.R'.  It contains the mean of each varable for each activity that each subject performed.
 
 --'CodeBook.md' - this document describes the process used to clean the data and provides descriptions for the variable names.
+
+--'extractednames.txt' - this document provides the names of the columns of the extracted data and 'tidydata.txt'

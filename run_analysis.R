@@ -29,7 +29,7 @@ names(data) <- varnames
 #"std()" and not variables that simply contain "mean".
 remain <- c(grep("mean\\(",varnames),grep("std\\(", varnames))
 remain <- c(1,2,remain[order(remain)])
-subdata <- data[,remain]
+subdata <- data[,remain] #This data set now has 68 columns
 
 #Turns activity numbers into descriptive names
 subdata[,2] <- gsub("1","Walking",subdata[,2])

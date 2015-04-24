@@ -11,4 +11,6 @@ This repo contains the following files:
 
 --'CodeBook.md' - this document describes the process used to clean the data and provides descriptions for the variable names.
 
---'extractednames.txt' - this document provides the names of the columns of the extracted data and 'tidydata.txt'
+--'extractednames.txt' - this document provides the names of the columns of the extracted data and 'tidydata.txt'.
+
+--'extractednamesinfo.txt' - this document provides more information about the column names of the extracted data.

@@ -16,5 +16,5 @@ The columns are then labeled with the feature names provided by 'features.txt' i
 
 Because the data for the activities are presented as numbers, appropriate English language names are inserted into the data set according to the 'activity_labels.txt' file provided with the UCI HAR DATASET.
 
-A tidy data set 'tidydata.txt' is now produced by calculating the mean of the remaining 66 time and frequency domain variables for each activity performed by each subject.  The column names for this data is the same as 'extractednames.txt'.
+A tidy data set 'tidydata.txt' is now produced by calculating the mean of the remaining 66 time and frequency domain variables for each activity performed by each subject.  The column names for this data are the same as 'extractednames.txt'.
 

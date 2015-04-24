@@ -33,8 +33,8 @@ subdata <- data[,remain]
 
 #Turns activity numbers into descriptive names
 subdata[,2] <- gsub("1","Walking",subdata[,2])
-subdata[,2] <- gsub("2","Walking Up",subdata[,2])
-subdata[,2] <- gsub("3","Walking Down",subdata[,2])
+subdata[,2] <- gsub("2","Walking Upstairs",subdata[,2])
+subdata[,2] <- gsub("3","Walking Downstairs",subdata[,2])
 subdata[,2] <- gsub("4","Sitting",subdata[,2])
 subdata[,2] <- gsub("5","Standing",subdata[,2])
 subdata[,2] <- gsub("6","Laying",subdata[,2])

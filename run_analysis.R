@@ -46,3 +46,5 @@ dataMelt <- melt(subdata, id=c("Subject","Activity"),
                  measure.vars = names(subdata[,3:68]))
 tidydata <- dcast(dataMelt, Subject + Activity ~ variable, mean)
 
+#Outputs the data to a .txt file
+write.table(tidydata,"tidydata.txt")

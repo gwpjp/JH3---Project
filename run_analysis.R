@@ -39,7 +39,7 @@ subdata[,2] <- gsub("4","Sitting",subdata[,2])
 subdata[,2] <- gsub("5","Standing",subdata[,2])
 subdata[,2] <- gsub("6","Laying",subdata[,2])
 
-# Creates a tidy data output of the average of all the variable for each
+# Creates a tidy data output of the average of all the variables for each
 # subject for each of his/her activities.
 library("reshape2")
 dataMelt <- melt(subdata, id=c("Subject","Activity"), 
